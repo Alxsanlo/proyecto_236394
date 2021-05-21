@@ -1,0 +1,33 @@
+{
+  "name": "proyecto_236394",
+  "version": "1.0.0",
+  "description": "An API REST using express js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "reporsitoy": {
+    "type": "git",
+    "url": "git+https://github.com/Alxsanlo/proyecto_236394.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "nodejs"
+  ],
+  "author": "Emilio ASL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alxsanlo/express_workshop/issues"
+  },
+  "homepage": "https://github.com/Alxsanlo/express_workshop#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
