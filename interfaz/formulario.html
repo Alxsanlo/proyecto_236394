@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>   
+    <script src="./js/signin.js"></script>
+</head>
+<body>
+   <div class="container">
+    <div style="margin: auto;" class="p-5 sombra mt-5 col-sm-10 col-lg-6">
+       <form action="<?php echo base_url('formularioProducto/insertar')?>" method = "POST" class="mb-0">
+        <a href="<?php base_url();?>/login/inicio" class="btn btn-danger btn-sm mb-4"><i class="bi bi-arrow-return-left"></i></a>
+        <h5 class="mb-4">Nuevo Producto</h5>
+        <div class="form-group">
+          <label class="mb-2" for="producto">Producto</label>
+          <input type="text" class="form-control mb-4" name ="producto" id="">
+        </div>
+         <div class="form-group">
+          <label class="mb-2" for="precio">Precio</label>
+          <input type="number" class="form-control mb-4" name = "precio" id="">
+        </div>
+        <div class="form-group">
+          <label class="mb-2" for="cantidad">Por Unidad/es</label>
+          <input type="number" class="form-control mb-4" name = "cantidad" id="">
+        </div>
+      
+  
+         <button type="submit" name="enviar" class="btn btn-primary">Agregar</button>
+     
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
