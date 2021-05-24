@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="assets/js/form_user.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+	<div class="container">
+    <div style="box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.10); border-radius: 10px; margin: auto;"  class="p-5 mt-5 mb-5 col-sm-10 col-lg-6">
+
+       <div action="" class="mb-0">
+        <span>
+        	<button id="btn_salir" style="color:white; float: right;" class="btn btn-danger btn-sm mb-4"><i class="bi bi-arrow-return-left"></i></button>
+        	<h5 class="mb-4">Nuevo usuario</h5>
+        </span>
+        <div class="form-group">
+          <label class="mb-1" for="nombre">Nombre</label>
+          <input type="text" class="form-control mb-4" name ="nombre" id="input_nombre">
+        </div>
+         <div class="form-group">
+          <label class="mb-1" for="apellidos">Apellidos</label>
+          <input type="text" class="form-control mb-4" name = "apellidos" id="input_apellidos">
+        </div>
+        <div class="form-group">
+          <label class="mb-1" for="telefono">Teléfono</label>
+          <input type="number" class="form-control mb-4" name = "telefono" id="input_telefono">
+        </div>
+        <div class="form-group">
+          <label class="mb-1" for="correo">Correo Electrónico</label>
+          <input type="text" class="form-control mb-4" name = "correo" id="input_correo">
+        </div>
+        <div class="form-group">
+          <label class="mb-1" for="direccion">Dirección Domciliar</label>
+          <input type="text" class="form-control mb-4" name = "direccion" id="input_direccion">
+        </div>
+      
+  
+         <button name="enviar" id="btn_agregar" class="btn btn-primary">Agregar</button>
+     
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
